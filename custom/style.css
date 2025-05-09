@@ -1,0 +1,113 @@
+/* Comment Styling */
+.mtk13 {
+	font-style: italic !important;
+	color: lightblue !important;
+}
+
+/* Tab Container */
+.tabs-and-actions-container {
+	border-bottom: 1px solid #3e44522e;
+	border-right: 1px solid #3e44522e;
+	border-top: 1px solid #3e44522e;
+	padding: 1rem !important;
+}
+
+/* Tab Section */
+.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab.active {
+	--tab-border-bottom-color: inherit !important;
+	border-bottom-color: inherit !important;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+/* Tab Section Hover */
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab:not(.active):hover {
+	--tab-border-bottom-color: inherit !important;
+	border-bottom-color: inherit !important;
+	border-radius: 5px !important;
+	overflow: hidden;
+}
+
+/* Tab Shadow */
+.monaco-editor .scroll-decoration {
+	box-shadow: none !important;
+}
+
+/* Command Pallet Styling Ctrl + P And Ctrl + Shift + P */
+.quick-input-widget {
+	border: solid 2px #ffffff2d !important;
+	transform: translateY(-50%) !important;
+	border-radius: 6px !important;
+	box-shadow: none !important;
+	top: 50% !important;
+	z-index: 100;
+}
+
+/* Centre Aligning Items On Activity Bar */
+.monaco-workbench .pane-composite-part:not(.empty) > .header {
+	justify-content: center;
+}
+
+.monaco-workbench .pane-composite-part > .header-or-footer .composite-bar-container {
+	justify-content: center;
+}
+
+/* Sidebar Title  */
+.monaco-workbench .part.sidebar > .title > .title-label h2 {
+	text-transform: capitalize;
+	font-weight: 400;
+	font-size: small;
+}
+
+/* Sidebar */
+.monaco-workbench .part.sidebar > .title {
+	border-bottom: 1px solid #3e44522e !important;
+	border-top: 1px solid #3e44522e !important;
+	border-radius: 2px;
+}
+
+.monaco-workbench .part.sidebar {
+	border-right: 1px solid #3e44522e !important;
+	border-top: 1px solid #3e44522e !important;
+	border-radius: 2px;
+}
+
+.monaco-scrollable-element > .shadow.top {
+	box-shadow: none;
+}
+
+/* Scrollbar */
+.decorationsOverviewRuler {
+	display: none !important;
+}
+
+.slider {
+	border-radius: 5px !important;
+	width: 5px !important;
+}
+
+/* Colour Pallet Icon */
+.vs-dark .colorpicker-color-decoration {
+	border: 2px solid;
+	border-radius: 5%;
+}
+
+/* Tooltips */
+.monaco-editor .monaco-hover {
+	margin-bottom: 1rem !important;
+	border: 2px solid #3e44522e;
+	border-radius: 5px;
+}
+
+/* Status Bar */
+.monaco-workbench .part.statusbar > .left-items,
+.monaco-workbench .part.statusbar > .right-items {
+	border-radius: 5px !important;
+	border: 1px solid #3e44522e;
+	margin: 1px !important;
+}
+
+.editor-group-container empty active {
+	border-top: 1px solid #3e44522e;
+	border-radius: 5px !important;
+}
