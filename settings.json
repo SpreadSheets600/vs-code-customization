@@ -1,0 +1,39 @@
+{
+    // Files
+    "files.autoSave": "onFocusChange", // Automatically Save Files When Out Of Focus
+    
+    // Editor
+    "editor.fontFamily": "JetBrains Mono", // Sets Font Family For Editor
+    "editor.mouseWheelZoom": true, // Allows Zooming With Mouse Wheel
+    "editor.minimap.enabled": false, // Enables Or Disables The Minmap
+    "editor.cursorBlinking": "expand", // Sets The Cursor Bliking Style
+    "editor.stickyScroll.enabled": false, // Enables Or Disables Sticky Scroll Feature
+    "editor.stickyScroll.scrollWithEditor": false, // Controls If Sticky Scroll Moves With Editor
+
+    // Workbench
+    "workbench.startupEditor": "none", // Specifies What To Show On Startup
+    "workbench.settings.applyToAllProfiles": [ // Applies Settings To All Profiles
+        "workbench.colorCustomizations"
+    ],
+    "workbench.activityBar.location": "top", // Sets Location Of Activity Bar
+    "workbench.tree.enableStickyScroll": false, // Enables Or Disables Sticky Scroll For Tree View
+
+    // Terminal
+    "terminal.explorerKind": "both",
+    "terminal.integrated.mouseWheelZoom": true, // Allows Zooming In Termial
+
+    // Window
+    "window.titleBarStyle": "custom", // Uses Custom Title 
+    "window.commandCenter": false, // Enables Or Disable Command Centre
+
+    // Explorer
+    "explorer.confirmDelete": false, // Prevents Confimation For Deletion
+    "explorer.confirmDragAndDrop": false, // Prevents Confimation For Drag And Drop
+
+    // Extension Specific - Custom JS CSS Extension
+    "vscode_custom_css.imports": [
+        "file:///C:/Users/maity/CustomVSC/styles.css"
+    ],
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false
+}
