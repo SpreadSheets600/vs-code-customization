@@ -5,7 +5,8 @@ This guide will help you customize the appearance of Visual Studio Code using th
 ---
 
 ## 🎬 Preview
-![image](https://github.com/user-attachments/assets/d7092193-d914-468e-ba3b-89249db41f92)
+![image](https://github.com/user-attachments/assets/f60d49a7-6480-4a17-b5a4-60a791c5270e)
+
 
 
 ### 📂 Extensions Used
